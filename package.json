@@ -1,0 +1,30 @@
+{
+  "name": "xmtp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "postinstall": "npx touch keys.txt recipients.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xmtp/xmtp-js": "^11.5.0",
+    "cli": "^1.0.1",
+    "cli-progress": "^3.12.0",
+    "ethers": "^6.11.1",
+    "inquirer": "^9.2.16",
+    "lodash": "^4.17.21",
+    "touch": "^3.1.0",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/cli": "^0.11.25",
+    "@types/cli-progress": "^3.11.5",
+    "@types/inquirer": "^9.0.7",
+    "@types/lodash": "^4.17.0"
+  }
+}
